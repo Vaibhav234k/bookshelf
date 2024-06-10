@@ -1,0 +1,11 @@
+/* src/Bookshelf.css */
+.bookshelf-page {
+    text-align: center;
+  }
+  
+  .bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

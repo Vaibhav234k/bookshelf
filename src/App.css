@@ -7,6 +7,48 @@
   pointer-events: none;
 }
 
+.my-bookshelf{
+  background-color: #4CAF50;
+  border-radius: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bookshelf {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bookshelf-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.bookshelf-button:hover {
+  background-color: #45a049;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
